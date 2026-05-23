@@ -4,7 +4,7 @@
   "type": "module",
   "description": "MCP stdio server for the Kaderos A2A Revenue Router.",
   "bin": {
-    "kaderos-mcp": "./server.mjs"
+    "kaderos-mcp": "server.mjs"
   },
   "scripts": {
     "start": "node server.mjs",
