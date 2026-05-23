@@ -1,5 +1,5 @@
 {
-  "name": "@kaderos/a2a-revenue-router-mcp",
+  "name": "kaderos-a2a-revenue-router-mcp",
   "version": "0.1.0",
   "type": "module",
   "description": "MCP stdio server for the Kaderos A2A Revenue Router.",
