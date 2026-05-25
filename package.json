@@ -1,8 +1,8 @@
 {
   "name": "kaderos-a2a-revenue-router-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
-  "description": "MCP stdio server for the Kaderos A2A Revenue Router.",
+  "description": "MCP stdio server for Kaderos: A2A/MCP agent reviews, paid execution, Stripe checkout, and receipts.",
   "bin": {
     "kaderos-mcp": "server.mjs"
   },
@@ -17,7 +17,9 @@
     "ai-agents",
     "agent-commerce",
     "stripe",
-    "revenue"
+    "revenue",
+    "agent-review",
+    "a2a-agent-review"
   ],
   "homepage": "https://kaderos.io/docs",
   "bugs": {

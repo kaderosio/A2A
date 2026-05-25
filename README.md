@@ -1,8 +1,20 @@
 # Kaderos A2A Revenue Router MCP Server
 
-Kaderos adds payments, payment-gated execution, and receipts to A2A and MCP agents.
+Kaderos adds paid reviews, payments, payment-gated execution, and receipts to A2A and MCP agents.
 
 This package is the installable stdio MCP server for Kaderos. It lets MCP clients submit A2A tasks, inspect queue state, prepare payment links through the local executor, execute paid tasks, and read public receipts.
+
+## Paid A2A Agent Review
+
+Kaderos now sells a concrete `$79` review for agent builders:
+
+- submit an Agent Card, MCP endpoint, repo, or docs URL
+- check protocol validity, discovery metadata, skill clarity, trust gaps, payment readiness, and receipt readiness
+- receive a scorecard receipt with concrete fixes
+
+Checkout: https://buy.stripe.com/4gMeVf2zUbGebJw3Y97g40c
+
+REST entrypoint: https://kaderos.io/agent-review
 
 ## Install
 
@@ -40,6 +52,8 @@ npm run check
 ## Public Discovery
 
 - Website: https://kaderos.io
+- Paid A2A Agent Review: https://kaderos.io/agent-review
+- Checkout: https://buy.stripe.com/4gMeVf2zUbGebJw3Y97g40c
 - Docs: https://kaderos.io/docs
 - Discovery pack: https://kaderos.io/discovery
 - Agent Card: https://kaderos.io/.well-known/agent-card.json
